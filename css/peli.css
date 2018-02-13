@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+h1 {
+  color: white;
+}
+.pelilauta-inner{
+  width: 624px;
+}
+.pelilauta-inner > div{
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: #33cc33;
+  margin: 2px;
+}
+.pelilauta-inner .laatat {
+  position: relative;
+  background-image: url("../images/kyngs.png");
+  font-family: 'Exo 2', sans-serif;
+  color: #c90;
+  font-size: 19px;
+  text-shadow: -1px -1px 0 #000,
+                1px -1px 0 #000,
+               -1px 1px 0 #000,
+                1px 1px 0 #000;
+}
+.pelilauta-inner > div > span{
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.pelilauta-inner > div > .pommi {
+  /* position: relative;*/
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 80px;
+  height: 48px;
+}
